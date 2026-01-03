@@ -6,6 +6,7 @@ CommDP, a DP–based residential commuting trajectory synthesis framework built 
 The raw data format is as follows:
 
 The raw data preprocessing code is available in ```src/RCDPjour/Pre/CommuterDataExtractor.scala```.
+
 preprocessed data format is as follows：
 
 The data generation code is available in ``` src/RCDPjour/generator/Main_CommDP.java ```.
