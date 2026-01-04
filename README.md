@@ -5,9 +5,14 @@ CommDP, a DP–based residential commuting trajectory synthesis framework built 
 # Getting Started
 The raw data format is as follows:
 
+Fields are comma-separated with the following notation: O for Origin, D for Destination, H for Home, and W for Workplace.
+```id,Odate,Ostation,Olon,Olat,Ddate,Dstation,Dlon,Dlat,trans,Hlat,Hlon,Wlat,Wlon```
+
 The raw data preprocessing code is available in ```src/RCDPjour/Pre/CommuterDataExtractor.scala```.
+This process concatenates user records with the same ID, filters out round-trip commuting data, and performs adaptive temporal generalization along with traffic zone spatial generalization.
 
 preprocessed data format is as follows：
+```Otimestamp Hregion,Dtimestamp Wregion,workhours,differenceOfCommuteDuration```
 
 The data generation code is available in ``` src/RCDPjour/generator/Main_CommDP.java ```.
 
