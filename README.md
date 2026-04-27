@@ -21,6 +21,6 @@ The evaluation code is available in ```src/RCDPjour/evaluation```
 
 there are two open-source benchmarks available, which are:
 
--Adatrace: The code repository is available at [Adatrace GitHub repository](https://github.com/FIBLAB/MoveSim).
+-Privtrace: The code repository is available at [Privtrace GitHub repository](https://github.com/DpTrace/PrivTrace).
 
--MoveSim: The code repository is available at [MoveSim GitHub repository](https://github.com/git-disl/AdaTrace).
+-ActSTD: The code repository is available at [ActSTD GitHub repository](https://github.com/tsinghua-fib-lab/Activity-Trajectory-Generation).
